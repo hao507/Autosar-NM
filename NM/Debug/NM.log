@@ -1,0 +1,21 @@
+﻿Build started 2018/9/11 22:55:39.
+     1>Project "d:\08_Project\11_External\00_Autosar_NM\00_Code\NM\NM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\core /I.\adapt /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt adapt\nmf_cfg_2nd.c core\nmf__internal.c core\nmf_interface.c
+         nmf_interface.c
+     1>d:\08_project\11_external\00_autosar_nm\00_code\nm\core\nmf_interface.c(460): warning C4013: 'printf' undefined; assuming extern returning int
+     1>d:\08_project\11_external\00_autosar_nm\00_code\nm\core\nmf_interface.c(691): warning C4013: 'memcpy' undefined; assuming extern returning int
+         nmf__internal.c
+         nmf_cfg_2nd.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\08_Project\11_External\00_Autosar_NM\00_Code\NM\Debug\NM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\08_Project\11_External\00_Autosar_NM\00_Code\NM\Debug\NM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\08_Project\11_External\00_Autosar_NM\00_Code\NM\Debug\NM.lib" /MACHINE:X86 Debug\nmf_cfg_2nd.obj
+         Debug\nmf_interface.obj
+         Debug\nmf__internal.obj
+         Debug\main.obj
+         NM.vcxproj -> D:\08_Project\11_External\00_Autosar_NM\00_Code\NM\Debug\NM.exe
+     1>Done Building Project "d:\08_Project\11_External\00_Autosar_NM\00_Code\NM\NM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.53
