@@ -152,7 +152,7 @@ void NMF__vTransmit(const uint8 *pu8Data)
 		printf("[NM - Tx]:");
 		for (i = 0; i < NMF_BUFFER_SIZE; i++)
 		{
-			printf(" %d", stPDU.pu8Data[i]);
+			printf(" %x", stPDU.pu8Data[i]);
 		}
 		printf("\n");
 	}

@@ -114,7 +114,7 @@ void NMF_vNetworkRelease(void)
 }
 
 /**
-* request Passive Startup
+* request Passive Startup£¬may be not used!
 */
 void NMF_vPassiveStartup(void)
 {
